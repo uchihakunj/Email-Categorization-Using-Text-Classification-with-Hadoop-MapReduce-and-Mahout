@@ -6,6 +6,7 @@ This project preprocesses labeled email data with Hadoop MapReduce and trains a 
 
 - Java 17
 - Ubuntu Linux (native or WSL2 on Windows)
+- Node.js 18+ and npm (for the dashboard)
 - Hadoop (HDFS and YARN running)
 - Mahout CLI on PATH (`mahout`)
 - Maven (`mvn`) for building the MapReduce job
@@ -49,6 +50,37 @@ Or run everything at once:
 chmod +x scripts/*.sh
 scripts/run_all.sh
 ```
+
+## Dashboard and API
+
+Install dependencies once:
+
+```
+cd dashboard
+npm install
+```
+
+Run the API (port 8787 by default):
+
+```
+npm run server
+```
+
+Run the dashboard (Vite dev server, port 5173 by default):
+
+```
+npm run dev
+```
+
+### API configuration
+
+Optional environment variables:
+
+- `PORT` (default 8787)
+- `FAST_MODE` (set to `0` to force HDFS model fetch)
+- `FEEDBACK_STORE` (default `local+hdfs`)
+- `FEEDBACK_LOCAL_PATH` (default `data/feedback/feedback_labels.csv`)
+- `FEEDBACK_HDFS_PATH` (default `/email_project/feedback/feedback_labels.csv`)
 
 ## Screenshots
 
