@@ -72,6 +72,12 @@ Run the dashboard (Vite dev server, port 5173 by default):
 npm run dev
 ```
 
+Run both API and dashboard together:
+
+```
+npm run dev:all
+```
+
 ### API configuration
 
 Optional environment variables:
