@@ -1,0 +1,4 @@
+tools/hadoop/
+tools/mahout/
+tools/*.tar.gz
+data/

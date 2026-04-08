@@ -1,0 +1,4 @@
+/mnt/e/hadoop_email_project/scripts/../mapreduce/src/main/java/com/email/preprocess/EmailPreprocessDriver.java
+/mnt/e/hadoop_email_project/scripts/../mapreduce/src/main/java/com/email/preprocess/WholeFileRecordReader.java
+/mnt/e/hadoop_email_project/scripts/../mapreduce/src/main/java/com/email/preprocess/EmailPreprocessMapper.java
+/mnt/e/hadoop_email_project/scripts/../mapreduce/src/main/java/com/email/preprocess/WholeFileInputFormat.java

@@ -1,0 +1,5 @@
+com/email/preprocess/EmailPreprocessDriver.class
+com/email/preprocess/SimpleStemmer.class
+com/email/preprocess/WholeFileRecordReader.class
+com/email/preprocess/WholeFileInputFormat.class
+com/email/preprocess/EmailPreprocessMapper.class
