@@ -5,6 +5,7 @@ This project preprocesses labeled email data with Hadoop MapReduce and trains a 
 ## Requirements
 
 - Java 17
+- Ubuntu Linux (native or WSL2 on Windows)
 - Hadoop (HDFS and YARN running)
 - Mahout CLI on PATH (`mahout`)
 - Maven (`mvn`) for building the MapReduce job
@@ -48,6 +49,15 @@ Or run everything at once:
 chmod +x scripts/*.sh
 scripts/run_all.sh
 ```
+
+## Screenshots
+
+![Overview dashboard](results/screenshots/Overview%20dashboard.png)
+![Alerts and insights](results/screenshots/AlertsInsights.png)
+![Batch upload](results/screenshots/Batch%20Upload.png)
+![Analyze an email](results/screenshots/Analyze%20an%20email%20(Datasets).png)
+![Models recent runs](results/screenshots/Models%20(Recent%20Runs).png)
+![Pipeline map and confusion matrix](results/screenshots/Pipeline%20Map%20%2B%20Confusion%20Matrix.png)
 
 ## Model artifacts for fast inference
 
