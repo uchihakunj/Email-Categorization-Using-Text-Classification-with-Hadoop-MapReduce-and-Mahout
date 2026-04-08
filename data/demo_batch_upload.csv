@@ -1,0 +1,6 @@
+sender,subject,body
+security@verify-now.xyz,Urgent: Account verification required,"Your account was suspended. Click here to verify now: http://verify-now.xyz/login"
+delivery@acme-corp.com,Quarterly project update,"Sharing the latest project milestones and action items. Please review before Friday."
+finance@northwind.io,Invoice 9842 available,"The April invoice is ready. Please confirm the PO number so we can close the month."
+alerts@bank-secure.example,Verify unusual activity,"We noticed unusual activity. Log in to confirm your identity immediately."
+hr@contoso.example,Interview schedule,"Hi, confirming your interview schedule for next week. Let us know your availability."
