@@ -52,12 +52,20 @@ scripts/run_all.sh
 
 ## Screenshots
 
-![Overview dashboard](results/screenshots/Overview%20dashboard.png)
-![Alerts and insights](results/screenshots/AlertsInsights.png)
-![Batch upload](results/screenshots/Batch%20Upload.png)
-![Analyze an email](results/screenshots/Analyze%20an%20email%20(Datasets).png)
-![Models recent runs](results/screenshots/Models%20(Recent%20Runs).png)
-![Pipeline map and confusion matrix](results/screenshots/Pipeline%20Map%20%2B%20Confusion%20Matrix.png)
+<table>
+  <tr>
+    <td><img src="results/screenshots/Overview%20dashboard.png" alt="Overview dashboard" width="360" /></td>
+    <td><img src="results/screenshots/AlertsInsights.png" alt="Alerts and insights" width="360" /></td>
+  </tr>
+  <tr>
+    <td><img src="results/screenshots/Batch%20Upload.png" alt="Batch upload" width="360" /></td>
+    <td><img src="results/screenshots/Analyze%20an%20email%20(Datasets).png" alt="Analyze an email" width="360" /></td>
+  </tr>
+  <tr>
+    <td><img src="results/screenshots/Models%20(Recent%20Runs).png" alt="Models recent runs" width="360" /></td>
+    <td><img src="results/screenshots/Pipeline%20Map%20%2B%20Confusion%20Matrix.png" alt="Pipeline map and confusion matrix" width="360" /></td>
+  </tr>
+</table>
 
 ## Model artifacts for fast inference
 
