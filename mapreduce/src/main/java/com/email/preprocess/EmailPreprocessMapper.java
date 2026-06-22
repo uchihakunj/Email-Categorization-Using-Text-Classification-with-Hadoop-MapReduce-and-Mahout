@@ -37,6 +37,7 @@ public class EmailPreprocessMapper extends Mapper<Text, BytesWritable, NullWrita
     if (cleaned.isEmpty()) {
       return;
     }
+// tokenizer + stop word removal + stemming
 
     String baseOutput = label + "/" + filename;
     multipleOutputs.write(NullWritable.get(), new Text(cleaned), baseOutput);

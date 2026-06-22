@@ -11,6 +11,8 @@ hdfs dfs -rm -r -f "$HDFS_BASE/model" || true
 hdfs dfs -rm -r -f "$HDFS_BASE/labelindex" || true
 hdfs dfs -rm -r -f "$HDFS_BASE/nb-output" || true
 
+#!The Naive Bayes steps Training + testing
+
 mahout seqdirectory -i "$HDFS_BASE/cleaned" -o "$HDFS_BASE/seq" -c
 mahout seq2sparse -i "$HDFS_BASE/seq" -o "$HDFS_BASE/vectors" -lnorm -nv -wt tfidf
 mahout trainnb -i "$HDFS_BASE/vectors/tf-vectors" -o "$HDFS_BASE/model" -li "$HDFS_BASE/labelindex" -ow

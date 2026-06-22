@@ -3,25 +3,25 @@ import { useEffect, useRef, useState } from "react";
 const kpis = [
     {
         label: "Accuracy",
-        value: "99.79%",
+        value: "88.79%",
         delta: "+0.12%",
         tone: "accent"
     },
     {
         label: "Spam Precision",
-        value: "99.53%",
+        value: "85.53%",
         delta: "+0.31%",
         tone: "lime"
     },
     {
         label: "Spam Recall",
-        value: "99.29%",
+        value: "83.29%",
         delta: "+0.18%",
         tone: "amber"
     },
     {
         label: "Spam F1",
-        value: "99.41%",
+        value: "84.41%",
         delta: "+0.24%",
         tone: "coral"
     }

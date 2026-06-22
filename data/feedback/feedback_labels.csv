@@ -1,2 +1,6 @@
 sender,subject,body,predicted,actual,timestamp
 sec@verify-now.xyz,meeting tomorrow,come tomorrow at meeting shart ay 11am,important,important,2026-04-08T17:30:28.021Z
+security@verify-now.xyz,Urgent: Account verification required,Your account was suspended. Click here to verify now: http://verify-now.xyz/login,spam,important,2026-05-15T09:23:59.667Z
+security@verify-now.xyz,Urgent: Account verification required,Your account was suspended. Click here to verify now: http://verify-now.xyz/login,spam,spam,2026-05-15T09:24:01.298Z
+security@verify-now.xyz,Urgent: Account verification required,Your account was suspended. Click here to verify now: http://verify-now.xyz/login,spam,spam,2026-05-15T09:24:11.221Z
+security@verify123,it is urgent,Your account was suspended. you can click to this link to know whats happened ,spam,spam,2026-05-15T09:33:19.199Z

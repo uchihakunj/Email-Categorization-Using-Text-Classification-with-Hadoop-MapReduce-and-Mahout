@@ -105,6 +105,16 @@ Optional environment variables:
   </tr>
 </table>
 
+## Viva and report materials
+
+- [VIVA_SCRIPT.md](VIVA_SCRIPT.md): page-by-page spoken script aligned with the dashboard flow.
+- [Email_Categorization_Presentation.pptx](Email_Categorization_Presentation.pptx): slide deck for the project presentation.
+- [results/final_project_report_2026-04-08_updated.docx](results/final_project_report_2026-04-08_updated.docx): full project report.
+
+## Feedback data
+
+Predictions and corrections are stored in [data/feedback/feedback_labels.csv](data/feedback/feedback_labels.csv). The dashboard appends new rows when you submit feedback.
+
 ## Model artifacts for fast inference
 
 Export the trained model into `artifacts/` so the API can run without HDFS:

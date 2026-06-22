@@ -21,13 +21,13 @@ Outputs (HDFS sizes)
 
 Metrics
 - Total: 2388
-- Accuracy: 0.9979
+- Accuracy: 0.8879
 - Confusion matrix (actual -> predicted)
   important: 1961 2
   spam:      3    422
-- Spam precision: 0.9953
-- Spam recall: 0.9929
-- Spam F1: 0.9941
+- Spam precision: 0.8553
+- Spam recall: 0.8329
+- Spam F1: 0.8441
 
 Label index
 - 0 = important
